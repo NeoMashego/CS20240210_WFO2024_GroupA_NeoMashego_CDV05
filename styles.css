@@ -26,15 +26,49 @@ body {
     line-height: 1.6;
 }
 
+/* Navigation Section */
+
+#navBar {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--light-blue);
+    height: 60px;
+}
+
+#logo {
+    height: 60px;
+}
+
+#navToggle {
+    visibility: hidden;
+    background-color: var(--dark-blue);
+    list-style: none;
+}
+
+#navLink {
+    position: relative;
+    list-style: none;
+    display: flex;
+}
+
+#navLink a {
+    color: var(--dark-blue);
+    text-decoration: none;
+    padding: 0 0.5em;
+}
+
+#navLink a:hover {
+    color: var(--light-red);
+    text-decoration: underline;
+}
+
 /* Introduction Section */
 
 #intro {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("./images/back.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 #intro img {
@@ -42,6 +76,7 @@ body {
     height: 10rem;
     width: 9.2rem;
     transform: rotate(-25deg);
+    padding: 4rem;
     margin: 2rem;
     position: relative;
 }
@@ -82,9 +117,7 @@ body {
 /* What Can Do Section */
 
 #whatCanDo {
-    background-image: url("./images/toDo-bg.jpg");
-    background-size: cover;
-    color: var(--cream);
+    color: var(--light-blue);
     text-align: center;
     padding: 4em;
 }
