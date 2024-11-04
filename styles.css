@@ -26,6 +26,28 @@ body {
     line-height: 1.6;
 }
 
+/* Get To Know Me Section */
+
+#getToKnowMe {
+    margin: 4rem;
+    text-align: center;
+}
+
+#getToKnowMe h3 {
+    margin: 0.2em;
+    font-size: 1.6em;
+}
+
+.subtitle {
+    font-style: italic;
+    background-color: var(--light-blue);
+    margin: 0.2em;
+}
+
+.inform {
+    margin: 0.4em;
+}
+
 /* What Can Do Section */
 
 #whatCanDo {
