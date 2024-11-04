@@ -26,6 +26,37 @@ body {
     line-height: 1.6;
 }
 
+/* Introduction Section */
+
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/back.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#intro img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 9.2rem;
+    transform: rotate(-25deg);
+    margin: 2rem;
+    position: relative;
+}
+
+.naming {
+    font-weight: var(--font-extrabold);
+    font-size: 2.2em;
+}
+
+.introTitle {
+    font-weight: var(--font-regular);
+    font-size: 1em;
+    font-style: italic;
+}
+
 /* Get To Know Me Section */
 
 #getToKnowMe {
