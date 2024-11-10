@@ -24,6 +24,7 @@ body {
     margin: 0;
     background-color: var(--cream);
     line-height: 1.6;
+    font-size: 1.3rem;
 }
 
 /* Navigation Section */
@@ -31,13 +32,14 @@ body {
 #navBar {
     position: relative;
     display: flex;
-    flex-wrap: nowrap;
     background-color: var(--light-blue);
-    height: 60px;
+    height: 80px;
+    padding-bottom: 0.5rem;
 }
 
 #logo {
-    height: 60px;
+    height: 80px;
+    width: 240px;
 }
 
 #navToggle {
@@ -47,7 +49,6 @@ body {
 }
 
 #navLink {
-    position: relative;
     list-style: none;
     display: flex;
 }
@@ -63,6 +64,23 @@ body {
     text-decoration: underline;
 }
 
+#CV {
+    font-size: 1rem;
+    font-weight: var(--font-semibold);
+    height: 80px;
+    width: 160px;
+    background-color: var(--light-blue);
+    border-radius: 50%;
+    border-width: 0.5px;
+    border-color: var(--cream);
+    right: 20px;
+}
+
+#CV:hover {
+    background-color: var(--light-red);
+    border-color: black;
+}
+
 /* Introduction Section */
 
 #intro {
@@ -73,10 +91,11 @@ body {
 
 #intro img {
     border-radius: 50%;
+    right: 2rem;
+    left: 1rem;
     height: 10rem;
     width: 9.2rem;
     transform: rotate(-25deg);
-    padding: 4rem;
     margin: 2rem;
     position: relative;
 }
@@ -107,7 +126,6 @@ body {
 .subtitle {
     font-style: italic;
     background-color: var(--light-blue);
-    margin: 0.2em;
 }
 
 .inform {
@@ -117,15 +135,14 @@ body {
 /* What Can Do Section */
 
 #whatCanDo {
-    color: var(--light-blue);
     text-align: center;
     padding: 4em;
 }
 
-h2 {
+#whatCanDo h2 {
     font-weight: var(--font-extrabold);
     font-size: 2em;
-    padding: 1.3em 0 0.5em 0;
+    padding: 0 0 1.2em 0;
 }
 
 #explain {
@@ -149,6 +166,7 @@ h2 {
 }
 
 .desc:hover {
+    color: var(--cream);
     background-color: var(--blue);
     box-shadow: 10px 10px var(--dark-blue);
     border-radius: 8em;
@@ -158,6 +176,7 @@ h2 {
 
 #projects {
     padding: 4em;
+    background-color: var(--light-blue);
 }
 
 #projects, h2, p {
@@ -187,7 +206,7 @@ h2 {
     background-color: var(--dark-blue);
     height: 13rem;
     color: var(--cream);
-    padding: 1rem 0;
+    padding: 1.6rem 0 0 0;
     font-size: 1.2em;
 }
 
